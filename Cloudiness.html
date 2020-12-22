@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude Analysis Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+  <div class='container'>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"> <!--start of navbar-->
+        <div class='container'> <!--start of navbar container-->
+            <div class='row'style ='width:100%'> <!--start of navbar container row-->
+                <div class='col-md-3'> <!--start pf navbar title column-->
+                <a class="navbar-brand" href="index.html" style="color: white;">Latitude</a>
+                </div> <!--end pf navbar title column-->
+                <div class='col-md-9'> <!--start of navbar links column -->
+    
+        <div class="collapse navbar-collapse navbar-links" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Max Temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="Wind Speed.html">Wind Speed</a>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+             <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+             </li>
+        </ul>
+        </div>
+    </div> <!--end of navbar links column -->
+    </div> <!--end of navbar container row-->
+    </div><!--end of navbar container-->
+    </nav> <!--end of navbar-->
+    <div class='container' id='content-container'> <!--start of content container-->
+      <div class='row'>
+          <div class='col-md-8'>
+              <article class= 'viz-info'>
+                  <h1> Cloudiness</h1>
+                  <hr/>
+                  <img src='assets/images/Fig3.png' width=650/>
+                  <p6>Based on the data points, cloudiness is distributed through out most of the levels of the city latitude.</p6>
+                  
+              </article>
+          </div>
+          <div class='col-md-4'>
+              <article class='viz-info'>
+                  <h2>Visualizations</h2>
+                  <hr/>
+                  <div class='container'>
+                      <div class='row'>
+                          <div class='col-md-6'>
+                  <img src='assets/images/Fig1.png' class='small-image'/>
+                  <img src='assets/images/Fig2.png' class='small-image'/>
+              </div>
+              <div class='col-md-4'>
+                  <img src='assets/images/Fig3.png' class='small-image'/>
+                  <img src='assets/images/Fig4.png' class='small-image'/>
+              </div>
+              
+              </div>
+              
+              </div>
+
+              
+              </article>
+          </div>
+      </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </div>
+
+
+</body>
+
+
+</html>
